@@ -8,15 +8,10 @@ int main() {
     int a=1, b=4;
 
     addition(a,b);
-    printf("Soustraction %d", soustraction(a,b));
+    printf("Soustraction de a et b %d", soustraction(a,b));
     return 0;
 }
 
-int addition(a, b){
-    int resultat;
-    resultat = a+b;
-    return resultat;
-}
 int soustraction(a, b){
     return a-b;
 }
